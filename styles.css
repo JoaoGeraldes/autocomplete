@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body {
+font-family: 'Open Sans', sans-serif;
+margin: 3vw;
+background: #212529;
+}
+
+*:focus{
+    outline: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 4vw;
+    color: #D5A021;
+}
+
+input {
+    width: 33vw;
+    min-width: 300px;
+    min-height: 40px;
+    height: 3vw;
+    border-radius: 3px 3px 0px 0px;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 15px;
+    background:#EDE7D9;
+}
+input:focus {
+    background:#f8f7f5;
+}
+
+#results {
+    width: 32vw;
+    min-width: 290px;
+    height: auto;
+    max-height: 500px;
+    overflow: auto;
+    cursor: pointer;
+    background: #343a40;
+    padding: 10px 5px 10px 5px;
+    border-radius: 0px 0px 10px 10px;
+    color: white;
+
+    -webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.75);
+}
+#results div:hover {
+    cursor: pointer;
+    background: #495057;
+    border-radius: 4px;
+    padding: 1px 0px 1px 1px;
+}
+
+.highlight {
+    color:#D5A021;
+}
